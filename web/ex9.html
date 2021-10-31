@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>function(methods)-함수 </h1>
+    <h2>Basic</h2>
+      <ul>
+        <script>
+
+          function two(){
+            document.write('<li>2-1</li>');
+            document.write('<li>2-2</li>');
+
+          }
+          document.write('<li>1</li>');
+          two();
+          document.write('<li>3</li>');
+          two();
+        </script>
+
+
+      </ul>
+
+    <h2>Parameter(입력-매개변수) & Argument(인자)</h2>
+      <script>
+        function oneplusone(){
+          document.write(1+1+'<br>')
+
+        }
+        oneplusone();
+
+        function sum(left,right){
+          document.write( left + right + '<br>');
+        }
+
+        sum(2,8);
+        sum(100,98);
+
+        document.write(
+        "sum() 안에 들어가는 것이 인자, 영어로 Argument  f-sum()안에 들어가는 것이 매개변수, 파라미터 ")
+      </script>
+
+    <h2>Return(출력)</h2>
+      <script>
+        function sum2(left,right){
+          return left+right;
+        }
+
+        document.write(sum2(2,3)+'<br>');
+        document.write('<div style="color:red">'+sum2(2,3)+ '<div>');
+        document.write('<div style="font-size:3rem">'+sum2(2,3)+ '<div>');
+
+      </script>
+
+
+  </body>
+</html>
